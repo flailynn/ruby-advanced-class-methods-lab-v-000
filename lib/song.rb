@@ -13,8 +13,10 @@ class Song
   def self.create
     #create a new song instance
     song_instance = self.new
+    
     #save song
     song_instance.save
+    
     #return new song that was created
     song_instance
   end
