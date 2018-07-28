@@ -50,6 +50,7 @@ class Song
   def self.new_from_filename(filename)
     new_song = filename.chomp(".mp3")
     new_song_array = new_song.split(" - ")
+
     artist_name = new_song_array[0]
     song_name = new_song_array[1]
 
