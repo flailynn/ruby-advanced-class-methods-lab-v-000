@@ -51,9 +51,9 @@ class Song
     new_song = filename.chomp(".mp3")
     new_song_array = new_song.split(" - ")
     artist_name = new_song_array[0]
-    cong_name = new_song_array[0]
+    song_name = new_song_array[0]
 
-    song = self.new_by_name(artist_name)
+    song = self.new_by_name(song_name)
     song.artist_name = artist_name
 
 
